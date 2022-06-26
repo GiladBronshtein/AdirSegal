@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.galleryContainer1 {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    border: 5px solid;
+    border-color: rgb(95, 95, 95);
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Hide the images by default */
+
+.mySlides1 {
+    display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor1 {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Next & previous buttons */
+
+.prev1,
+.next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 16px 16px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+    background-color: rgba(95, 95, 95, 0.705);
+}
+
+
+/* Position the "next button" to the right */
+
+.next1 {
+    right: 0;
+    border-radius: 16px 0 0 16px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev1:hover,
+.next1:hover {
+    background-color: rgba(117, 117, 117, 0.8);
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext1 {
+    color: #f2f2f2;
+    font-size: 28px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Container for image text */
+
+.caption-container1 {
+    text-align: center;
+    height: 35px;
+    padding-top: 2px;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(196, 196, 196, 1) 10%, rgba(101, 101, 101, 1) 40%, rgba(101, 101, 101, 1) 60%, rgba(196, 196, 196, 1) 90%, rgba(255, 255, 255, 1) 100%);
+    color: white;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Six columns side by side */
+
+.column1 {
+    float: left;
+    width: 16.66%;
+}
+
+
+/* Add a transparency effect for thumnbail images */
+
+.demo1 {
+    opacity: 0.6;
+}
+
+.active,
+.demo1:hover {
+    opacity: 1;
+}
+
+.headshot {
+    flex-shrink: 0;
+    border: calc(1px + 0.2vw) solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.headshot-1 {
+    background-image: var(--img-url), linear-gradient(#f9f047, #0fd850);
+}

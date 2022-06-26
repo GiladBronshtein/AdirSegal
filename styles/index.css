@@ -1,0 +1,45 @@
+body {
+    position: absolute;
+    background-image: url(../images/25101.jpg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    position: relative;
+    padding: 30px;
+}
+
+.portrait {
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+#imgAdir {
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    object-position: 5px -30px;
+    border-radius: 100%;
+    border: 0px solid;
+}
+
+.portrait:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+#coolheader {
+    background-color: #333;
+}
+
+.col-lg-8 {
+    margin-bottom: 40px;
+}

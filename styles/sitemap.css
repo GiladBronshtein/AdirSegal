@@ -1,0 +1,25 @@
+section {
+    border-bottom: 1px solid #ccc;
+    margin-top: 1em;
+}
+
+section .col-md-3 {
+    border-left: 1px solid #ccc;
+}
+
+section .col-md-3:first-child {
+    border: none;
+}
+
+main {
+    padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav>li:not(:last-child) {
+    margin-bottom: 3px;
+    margin-right: 25px;
+}
