@@ -153,3 +153,13 @@ a:focus {
     background-color: yellow;
     color: black;
 }
+
+p:focus {
+    background-color: yellow;
+    color: black;
+}
+
+u:focus important {
+    background-color: yellow;
+    color: black;
+}
